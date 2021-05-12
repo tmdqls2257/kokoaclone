@@ -8,29 +8,32 @@
                 align-items: center;
                 justify-content: center;
                 height: 100vh;
+                flex-direction: column;
             }
             div{
+                
                 background-color: teal;
                 width: 200px;
                 height: 200px;
             }
-            @media screen and (max-width: 600px){
-                div{
-                    background-color: red;
-                }
-            }
-            @media screen and (min-width: 601px) and (max-width: 800px){
+            @media screen and (min-width: 601px) and (max-width: 800px) and (orientation:portrait){
                 div{
                     background-color: orange;
                 }
-            }@media screen and (min-width:801px) {
-                div{
-                    background-color: yellow;
+            }
+            @media  screen and (orientation: landscape) {
+                span{
+                    display: none;
                 }
+                
+            }
+            span{
+                font-size: 30px;
             }
         </style>
     </head>
     <body>
         <div></div>
+        <span>Please flip your phone:(</span>
     </body>
 </html>
