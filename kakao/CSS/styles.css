@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import 'reset.css';
+@import 'status-bar.css';
 :root {
   --text-color: tomato;
   --background-color: beige;
@@ -7,25 +9,20 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-.status-bar {
+
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
   display: flex;
-  justify-content: center;
-}
-.status-bar__column {
-  width: 33%;
-}
-.status-bar__column:first-child span {
-  margin-right: 5px;
-}
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column:last-child {
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  font-weight: 600;
 }
-.status-bar__column .fa-battery-quarter {
-  margin: 0 3px;
+.welcome-header__title {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.welcome-header__text {
+  width: 70%;
+  opacity: 0.8;
 }
