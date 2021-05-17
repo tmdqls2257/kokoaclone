@@ -5,7 +5,8 @@
 /*  Components */
 @import 'components/status-bar.css';
 @import 'components/nav-bar.css';
-
+@import 'components/srceen-header.css';
+@import 'components/friends.css';
 /* Screens */
 @import 'screens/login.css';
 :root {
@@ -17,8 +18,8 @@
 body {
   height: 1000vh;
   font-family: 'Open Sans', sans-serif;
+  color: #2e363e;
 }
 a {
-  color: #2e363e;
   text-decoration: none;
 }
