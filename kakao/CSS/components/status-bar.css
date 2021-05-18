@@ -1,13 +1,15 @@
 .status-bar {
   position: fixed;
-  top: 0;
+  top: 5px;
   width: 100%;
+
   display: flex;
   box-sizing: border-box;
   justify-content: center;
 }
 .status-bar__column {
   width: 33%;
+  background: url('img/그림4.png');
 }
 .status-bar__column:first-child span {
   margin-right: 5px;

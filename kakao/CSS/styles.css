@@ -7,6 +7,7 @@
 @import 'components/nav-bar.css';
 @import 'components/srceen-header.css';
 @import 'components/friends.css';
+@import 'components/usercomponents.css';
 /* Screens */
 @import 'screens/login.css';
 :root {
@@ -14,12 +15,15 @@
   --background-color: beige;
   --grey-color: #f9f9fa;
   --yellow: #fae100;
+  --horizontal-space: 25px;
 }
 body {
-  height: 1000vh;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background-image: url('img/그림4.png');
   color: #2e363e;
 }
 a {
+  color: #2e363e;
   text-decoration: none;
 }
