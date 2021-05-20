@@ -8,6 +8,7 @@
 @import 'components/srceen-header.css';
 @import 'components/friends.css';
 @import 'components/usercomponents.css';
+@import 'components/badge.css';
 /* Screens */
 @import 'screens/login.css';
 :root {
