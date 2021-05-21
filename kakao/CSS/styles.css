@@ -6,11 +6,12 @@
 @import 'components/status-bar.css';
 @import 'components/nav-bar.css';
 @import 'components/srceen-header.css';
-@import 'components/friends.css';
 @import 'components/usercomponents.css';
 @import 'components/badge.css';
 /* Screens */
 @import 'screens/login.css';
+@import 'screens/friends.css';
+@import 'screens/find.css';
 :root {
   --text-color: tomato;
   --background-color: beige;

@@ -102,3 +102,14 @@
 .nav__btn:last-child {
   animation-delay: 0.8s;
 }
+.header__icons__dot {
+  background-color: #f90d3c;
+  color: aliceblue;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}

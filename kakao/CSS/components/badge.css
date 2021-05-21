@@ -1,11 +1,23 @@
 .badge {
   background-color: tomato;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-weight: 600;
+}
+
+.header__icons__dot {
+  background-color: #f90d3c;
+  color: aliceblue;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
 }
