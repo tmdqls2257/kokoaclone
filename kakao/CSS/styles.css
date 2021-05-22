@@ -15,9 +15,10 @@
 :root {
   --text-color: tomato;
   --background-color: beige;
-  --grey-color: #f9f9fa;
+  --grey-color: rgba(0, 0, 0, 0.5);
   --yellow: #fae100;
   --horizontal-space: 25px;
+  --main-border: 1px solid rgb(0, 0, 0, 0.3);
 }
 body {
   font-family: 'Open Sans', sans-serif;
