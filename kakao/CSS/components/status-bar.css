@@ -1,8 +1,9 @@
 .status-bar {
+  background-color: #87d0f4;
   position: fixed;
   top: 5px;
   width: 100%;
-
+  z-index: 2;
   display: flex;
   box-sizing: border-box;
   justify-content: center;

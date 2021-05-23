@@ -1,0 +1,6 @@
+#chat-screen .alt-header {
+  position: sticky;
+  top: 30px;
+  background-color: #87d0f4;
+  z-index: 1;
+}

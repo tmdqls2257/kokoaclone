@@ -1,0 +1,44 @@
+.alt-header h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.settings-settting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-settting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings-settings-column:last-child {
+  opacity: 0.5;
+}
+.alt-header__column span:last-child {
+  margin-left: 10px;
+}
+.alt-header {
+  padding: 0px 20px;
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
