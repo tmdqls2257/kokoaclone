@@ -23,6 +23,7 @@
 .message-row {
   display: flex;
   width: 100%;
+  margin-bottom: 25px;
 }
 
 .message-row img {
@@ -52,4 +53,67 @@
 .message__author {
   opacity: 0.8;
   font-size: 14px;
+}
+
+.message-row--own {
+  flex-direction: row-reverse;
+}
+
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-left: 5px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+  opacity: 0.5;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  height: 30px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+}
+
+.reply__column:last-child > i {
+  right: 40px;
+  top: 7px;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
